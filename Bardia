@@ -1,2 +1,1 @@
-vless://1283019f-e55f-45ed-87e7-71eef920ddc5@zula.ir:443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=975e283c&sni=cdn30.cdn2cdn.com#%D8%AA%D9%85%D8%A7%D9%85%DB%8C+%D8%A7%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%D9%87%D8%A7
-vless://a640a9f9-77b9-4f1e-95d6-1f2fc8ee906a@zula.ir:443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=939e9bc4&sni=cdn26.cdn2cdn.com#%D8%AA%D9%85%D8%A7%D9%85%DB%8C+%D8%A7%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%D9%87%D8%A7+%282%29
+trojan://qj1Dz1CJmFQRhWr1SP80aA@zula.ir:443?mode=gun&security=tls&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=443trojan&sni=cdn-21.gsmxreality.com#%28CDN-21%29
