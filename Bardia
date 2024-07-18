@@ -1,28 +1,383 @@
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#German+%232IM
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#German+%231IM
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#France+%233
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#Moldova+%231IM
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#Latvia+%232I
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#Russia+%231
-vless://f5c4e457-e866-49e9-a9c4-6e585f2be984@cld.itsvpns.app:443?path=%2Ffews&security=tls&encryption=none&alpn=h2,http/1.1&host=free.itsvpns.app&type=ws&sni=free.itsvpns.app#Switzerland+%231
-vless://02f8f95f-4e5a-467c-804f-52d802a02b67@mkh.mahan.fun:443?path=%2Ffiits&security=tls&encryption=none&alpn=h2,http/1.1&host=finland.mahan.fun&type=ws&sni=finland.mahan.fun#Finland_MKH
-vless://02f8f95f-4e5a-467c-804f-52d802a02b67@cluod.mahan.fun:443?path=%2Ffiits&security=tls&encryption=none&alpn=h2,http/1.1&host=finland.mahan.fun&type=ws&sni=finland.mahan.fun#Finland+%231IM
-vless://95326db8-b820-49b2-eb83-f574c522e556@cluod.mahan.fun:2087?path=%2Fws&security=tls&encryption=none&alpn=h2,http/1.1&host=us1pq.mahan.fun&type=ws&sni=us1pq.mahan.fun#US+%231IM
-vless://22c01653-c5a5-4307-a34e-9868a43ccd92@mkh.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=fa1pq.mahan.fun&type=ws&sni=fa1pq.mahan.fun#France_TCI
-vless://22c01653-c5a5-4307-a34e-9868a43ccd92@cluod.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=fa1pq.mahan.fun&type=ws&sni=fa1pq.mahan.fun#France+%231WIFI
-vless://22c01653-c5a5-4307-a34e-9868a43ccd92@cluod.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=fa1pq.mahan.fun&type=ws&sni=fa1pq.mahan.fun#France+%231IM
-vless://e21ee12a-3da0-4259-b249-f78ca7fe0ebe@cluod.mahan.fun:2087?path=%2Fwsuk&security=tls&encryption=none&alpn=h2,http/1.1&host=uk1pq.mahan.fun&type=ws&sni=uk1pq.mahan.fun#UK+%231IM
-vless://b342abb6-25dd-4f23-b7aa-b116f012f5d8@cluod.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=http/1.1,h2&host=nl1ba.mahan.fun&type=ws&sni=nl1ba.mahan.fun#Netherland+%232WH
-vless://5011e1f0-d872-4224-8059-d9f2c44a9f6a@cluod.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=nl1pq.mahan.fun&type=ws&sni=nl1pq.mahan.fun#Netherland+%231WH
-vless://5011e1f0-d872-4224-8059-d9f2c44a9f6a@cluod.mahan.fun:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=nl1pq.mahan.fun&type=ws&sni=nl1pq.mahan.fun#Netherland+%231IM
-vless://e4774668-3343-4c89-a6bf-0a465a254a5a@cluod.mahan.fun:443?path=%2Fws&security=tls&encryption=none&alpn=h2,http/1.1&host=de1hi.mahan.fun&type=ws&sni=de1hi.mahan.fun#German+%232IM
-vless://e4774668-3343-4c89-a6bf-0a465a254a5a@mkh.mahan.fun:443?path=%2Fws&security=tls&encryption=none&alpn=h2,http/1.1&host=de1hi.mahan.fun&type=ws&sni=de1hi.mahan.fun#German+%23TCI
-vless://686c1f28-dbc8-469a-84f9-f3420fc24f4a@cluod.mahan.fun:2087?path=%2Fws&security=tls&encryption=none&alpn=h2,http/1.1&host=German+%231IM.mahan.fun&type=ws&sni=German #1IM.mahan.fun#German+%231IM
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6dHFJdjkzcGVSSDZ2Q1hOYisydEJDSHZaVitJWU0xKzBURlJQTGJlQXNOVT0=@91.228.10.3:31185#RTL+%233
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6Rkk4KzNPS2NRUGdqTWxPbE5MZ1pNSUJ0S0IrcThkTlN2TTZHRGxiR3I5QT0=@194.4.49.84:46711#RTL+%232
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6QjNyd1R3ZjZDUStTdE9vb282aHdCdUpSUGJUblI0NTZnWkx1bG82L25tRT0=@94.131.110.57:42743#RTL+%231
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6N3hVblQ1RTVYVDUxVXBaTXdDWlBVSmZFUUNONW1BZWtSRFdoakJSSlRwOD0=@[2a11:3800:0:17::1]:50698#MTN+%235IM
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6S0VmdUVyOFU4ZG9kTWZXdlkxTktLQ2dCMnlYakRoNlZ5T1ZDR0VrQWdmND0=@[2a09:7c41:0:3b::1]:30984#MTN+%234IM
-ss://Y2hhY2hhMjAtcG9seTEzMDU6YTFFdjFxWHJKaHZtcTRtVTR1U3pDMnpROUFqcGJtSElJUXhqL0dHaDF0QT0=@[2a01:4f9:c012:d168::1]:12745#MTN+%233IM
-ss://eGNoYWNoYTIwLWlldGYtcG9seTEzMDU6Um9rSjFJa3d3ODBPWDFMVVJIaWFweTl4QjByM3NzU2YveFhadFBzY1p5WT0=@[2a0b:cf47:0:95::1]:37672#MTN+%232IM
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowS1Q3aXR3MDFYdExhTnlsTmJzUlNRb0hsSDFpeUJtbVBvQ0IwU2g1aTM0PQ==@94.131.110.57:43124#MTN+%231IM
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": 1024,
+        "enabled": true,
+	"connection": 2,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.magicbloom.lol",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1ff6043c-1381-4f9f-bd44-5ea95d722c32",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "publicKey": "",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
+        },
+        "wsSettings": {
+          "headers": {
+	  },
+	  "path": ""
+	}
+      },
+      "tag": "proxy"
+    },
+    {
+	    "tag": "fragment-out",
+	    "protocol": "freedom",
+	    "settings": {
+		    "domainStrategy": "AsIs",
+		    "fragment": {
+			    "packets": "tlshello",
+			    "length": "20-50",
+			    "interval": "20-30"
+		    }
+	    },
+	    "streamSettings": {
+		    "sockopt": {
+			    "tcpNoDelay": true,
+			    "tcpKeepAliveIdle": 100
+		    }
+	    }
+    },
+    {
+	    "protocol": "freedom",
+	    "settings": {},
+	    "tag": "direct"
+    },
+    {
+	    "protocol": "blackhole",
+	    "settings": {
+		    "response": {
+			    "type": "http"
+		    }
+	    },
+	    "tag": "block"
+    }
+  ],
+  "routing": {
+  }
+}
+
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": 1024,
+        "enabled": true,
+	"connection": 2,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.magicbloom.lol",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1ff6043c-1381-4f9f-bd44-5ea95d722c32",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "publicKey": "",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
+        },
+        "wsSettings": {
+          "headers": {
+	  },
+	  "path": ""
+	}
+      },
+      "tag": "proxy"
+    },
+    {
+	    "tag": "fragment-out",
+	    "protocol": "freedom",
+	    "settings": {
+		    "domainStrategy": "AsIs",
+		    "fragment": {
+			    "packets": "tlshello",
+			    "length": "20-50",
+			    "interval": "20-30"
+		    }
+	    },
+	    "streamSettings": {
+		    "sockopt": {
+			    "tcpNoDelay": true,
+			    "tcpKeepAliveIdle": 100
+		    }
+	    }
+    },
+    {
+	    "protocol": "freedom",
+	    "settings": {},
+	    "tag": "direct"
+    },
+    {
+	    "protocol": "blackhole",
+	    "settings": {
+		    "response": {
+			    "type": "http"
+		    }
+	    },
+	    "tag": "block"
+    }
+  ],
+  "routing": {
+  }
+}
+
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": 1024,
+        "enabled": true,
+	"connection": 2,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.magicbloom.lol",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1ff6043c-1381-4f9f-bd44-5ea95d722c32",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "publicKey": "",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
+        },
+        "wsSettings": {
+          "headers": {
+	  },
+	  "path": ""
+	}
+      },
+      "tag": "proxy"
+    },
+    {
+	    "tag": "fragment-out",
+	    "protocol": "freedom",
+	    "settings": {
+		    "domainStrategy": "AsIs",
+		    "fragment": {
+			    "packets": "tlshello",
+			    "length": "20-50",
+			    "interval": "20-30"
+		    }
+	    },
+	    "streamSettings": {
+		    "sockopt": {
+			    "tcpNoDelay": true,
+			    "tcpKeepAliveIdle": 100
+		    }
+	    }
+    },
+    {
+	    "protocol": "freedom",
+	    "settings": {},
+	    "tag": "direct"
+    },
+    {
+	    "protocol": "blackhole",
+	    "settings": {
+		    "response": {
+			    "type": "http"
+		    }
+	    },
+	    "tag": "block"
+    }
+  ],
+  "routing": {
+  }
+}
