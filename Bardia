@@ -1,4 +1,4 @@
-{
+ {
   "dns": {
     "hosts": {
       "domain:googleapis.cn": "googleapis.com"
@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.magicbloom.lol",
+            "address": "www.brightskyland.lol",
             "port": 443,
             "users": [
               {
