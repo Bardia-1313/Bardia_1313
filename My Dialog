@@ -43,7 +43,7 @@
   "settings": {
     "vnext": [
       {
-        "address": "172.66.47.130",
+        "address": "www.speedtest.net",
         "port": 8443,
         "users": [
           {
@@ -65,13 +65,13 @@
         "http/1.1"
       ],
       "fingerprint": "randomized",
-      "serverName": "PurCoWFAsT.PAGES.dev"
+      "serverName": "puRcoWFast.PAgeS.DeV"
     },
     "wsSettings": {
       "headers": {
         "Host": "purcowfast.pages.dev"
       },
-      "path": "/FQW7NPkyv9laDbj5?ed=2560"
+      "path": "/bVQZo4MfUPqMdGNq?ed=2560"
     }
   },
   "tag": "proxy"
@@ -91,7 +91,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "Bardia",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
