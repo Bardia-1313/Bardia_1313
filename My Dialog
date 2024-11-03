@@ -91,7 +91,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "Bardia(1)",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -200,7 +200,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "Bardia",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
