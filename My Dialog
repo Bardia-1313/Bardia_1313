@@ -43,7 +43,7 @@
   "settings": {
     "vnext": [
       {
-        "address": "www.speedtest.net",
+        "address": "172.66.47.130",
         "port": 8443,
         "users": [
           {
@@ -65,13 +65,13 @@
         "http/1.1"
       ],
       "fingerprint": "randomized",
-      "serverName": "puRcoWFast.PAgeS.DeV"
+      "serverName": "PurCoWFAsT.PAGES.dev"
     },
     "wsSettings": {
       "headers": {
         "Host": "purcowfast.pages.dev"
       },
-      "path": "/bVQZo4MfUPqMdGNq?ed=2560"
+      "path": "/FQW7NPkyv9laDbj5?ed=2560"
     }
   },
   "tag": "proxy"
