@@ -43,7 +43,7 @@
   "settings": {
     "vnext": [
       {
-        "address": "2606:4700:310c::ac42:2c7e",
+        "address": "104.16.82.13",
         "port": 8443,
         "users": [
           {
@@ -65,13 +65,13 @@
         "http/1.1"
       ],
       "fingerprint": "randomized",
-      "serverName": "PUrCOWfaSt.PagEs.DeV"
+      "serverName": "PURcOwfAsT.PAGEs.dev"
     },
     "wsSettings": {
       "headers": {
         "Host": "purcowfast.pages.dev"
       },
-      "path": "/Ofxn9DcNEEKqJZNu?ed=2560"
+      "path": "/tbAU2IzqJq2OuYMX?ed=2560"
     }
   },
   "tag": "proxy"
@@ -91,7 +91,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Bardia 2",
+  "remarks": "Bardia 3",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
