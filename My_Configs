@@ -1,4 +1,4 @@
-{
+ {
   "dns": {
     "hosts": {
       "domain:googleapis.cn": "googleapis.com"
@@ -38,14 +38,20 @@
   },
   "outbounds": [
     {
-  "protocol": "trojan",
+  "protocol": "vless",
   "sendThrough": "0.0.0.0",
   "settings": {
-    "servers": [
+    "vnext": [
       {
-        "address": "www.speedtest.net",
-        "password": "bpb-trojan",
-        "port": 443
+        "address": "199.232.2.132",
+        "port": 443,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75"
+          }
+        ]
       }
     ]
   },
@@ -54,13 +60,18 @@
     "security": "tls",
     "tlsSettings": {
       "allowInsecure": true,
-      "serverName": "PURCoWfasT.pAGES.DEV"
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "fingerprint": "randomized",
+      "serverName": "lovlov.com"
     },
     "wsSettings": {
       "headers": {
-        "Host": ""
+        "Host": "lovlov.com"
       },
-      "path": "/trm7wKfbolNKUsJzkc?ed=2560"
+      "path": "/McTdBrRQ5P2selZF?ed=2560"
     }
   },
   "tag": "proxy"
