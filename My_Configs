@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "104.16.82.13",
-        "port": 8443,
+        "address": "time.is",
+        "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75"
+            "id": "50b7fc84-85b4-4043-b1f7-6477c9017a44"
           }
         ]
       }
@@ -60,18 +60,14 @@
     "security": "tls",
     "tlsSettings": {
       "allowInsecure": true,
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
       "fingerprint": "randomized",
-      "serverName": "PURcOwfAsT.PAGEs.dev"
+      "serverName": "purlitefastest.pages.dev"
     },
     "wsSettings": {
       "headers": {
-        "Host": "purcowfast.pages.dev"
+        "Host": "purlitefastest.pages.dev"
       },
-      "path": "/tbAU2IzqJq2OuYMX?ed=2560"
+      "path": "/purlitefastest.pages.dev/?ed=2560"
     }
   },
   "tag": "proxy"
@@ -91,7 +87,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Bardia 3",
+  "remarks": "Bardia 1",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
