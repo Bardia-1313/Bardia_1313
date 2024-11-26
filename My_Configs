@@ -1,1 +1,105 @@
 trojan://comfort@attackinland.com:443?path=%2Fseasonal&security=tls&host=attackinland.com&type=ws&sni=www.attackinland.com#Beta
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "172.67.106.26",
+        "port": 443,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "082e82e4-ecf4-47d6-99a9-377bb20683c7"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "fingerprint": "randomized",
+      "serverName": "c9c314f7.newwow.pages.dev"
+    },
+    "wsSettings": {
+      "headers": {
+        "Host": "c9c314f7.newwow.pages.dev"
+      },
+      "path": "/c9c314f7.newwow.pages.dev/?ed=2560"
+    }
+  },
+  "tag": "proxy"
+},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "BardiaSh",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
