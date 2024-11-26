@@ -1,4 +1,3 @@
-trojan://comfort@attackinland.com:443?path=%2Fseasonal&security=tls&host=attackinland.com&type=ws&sni=www.attackinland.com#Beta
 {
   "dns": {
     "hosts": {
