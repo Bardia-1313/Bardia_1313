@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "172.67.106.26",
+        "address": "visa.cn",
         "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "082e82e4-ecf4-47d6-99a9-377bb20683c7"
+            "id": "b0559a53-6291-47c0-a38c-0c77bfa623e8"
           }
         ]
       }
@@ -61,13 +61,13 @@
     "tlsSettings": {
       "allowInsecure": true,
       "fingerprint": "randomized",
-      "serverName": "c9c314f7.newwow.pages.dev"
+      "serverName": "b2767e1c.beevfast3.pages.dev"
     },
     "wsSettings": {
       "headers": {
-        "Host": "c9c314f7.newwow.pages.dev"
+        "Host": "b2767e1c.beevfast3.pages.dev"
       },
-      "path": "/c9c314f7.newwow.pages.dev/?ed=2560"
+      "path": "/b2767e1c.beevfast3.pages.dev/?ed=2560"
     }
   },
   "tag": "proxy"
@@ -87,7 +87,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "BardiaSh",
+  "remarks": "BardiaOq",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
