@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "199.232.6.38",
-        "port": 443,
+        "address": "104.18.10.128",
+        "port": 2083,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "7ebe434e-1dcd-4dee-a739-23a2a6025755"
+            "id": "d342d11e-d424-4583-b36e-524ab1f0afa4"
           }
         ]
       }
@@ -60,18 +60,14 @@
     "security": "tls",
     "tlsSettings": {
       "allowInsecure": true,
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
-      "fingerprint": "randomized",
-      "serverName": "sums.ac.ir"
+      "fingerprint": "chrome",
+      "serverName": "xxx.donated002.workers.dev"
     },
     "wsSettings": {
       "headers": {
-        "Host": "sums.ac.ir"
+        "Host": "xxx.donated002.workers.dev"
       },
-      "path": "/H?ed=2560"
+      "path": "/@V2VIPCHANNEL/?ed=2048"
     }
   },
   "tag": "proxy"
@@ -91,7 +87,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Bardiaff",
+  "remarks": "bardiatf",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
