@@ -1,1 +1,107 @@
-vless://f1e481af-4fd4-40ce-aedc-9a5529c10e8a@ver2.tcod008.info:28505?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#nyf6twmi
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "172.66.46.224",
+        "port": 8443,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "1a1eff5f-97b8-4a4e-910d-6415441b371a"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "alpn": [
+        "http/1.1"
+      ],
+      "fingerprint": "randomized",
+      "serverName": "trojanyu.pages.dev"
+    },
+    "wsSettings": {
+      "headers": {
+        "Host": "trojanyu.pages.dev"
+      },
+      "path": "/?ed=2560"
+    }
+  },
+  "tag": "proxy"
+},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "test",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
