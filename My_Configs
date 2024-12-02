@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "104.18.41.138",
-        "port": 8443,
+        "address": "94.176.183.62",
+        "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "a8a8892a-3999-43e7-a0c9-92aded8b0f3e"
+            "id": "f2004126-5865-4980-b6dd-2211dbaadf10"
           }
         ]
       }
@@ -60,14 +60,13 @@
     "security": "tls",
     "tlsSettings": {
       "allowInsecure": true,
-      "fingerprint": "random",
-      "serverName": "pardazeshvpn-tg54.pages.dev"
+      "serverName": "gcore.com"
     },
     "wsSettings": {
       "headers": {
-        "Host": "pardazeshvpn-tg54.pages.dev"
+        "Host": "10.gcr.dns04.com"
       },
-      "path": "/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=2048"
+      "path": "/?ed=2560"
     }
   },
   "tag": "proxy"
@@ -87,7 +86,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Bardianh",
+  "remarks": "Bardidf",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
