@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "162.159.153.2",
-        "port": 80,
+        "address": "104.16.227.101",
+        "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751"
+            "id": "d342d11e-d424-4583-b36e-524ab1f0afa4"
           }
         ]
       }
@@ -57,12 +57,16 @@
   },
   "streamSettings": {
     "network": "ws",
-    "security": "",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "serverName": "a.xn--i-sx6a60i.us.kg"
+    },
     "wsSettings": {
       "headers": {
-        "Host": "rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apaspeedtest.netrat.com.eu.com.shw914.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.victorcamper.dns-dynamic.net:443"
+        "Host": "a.xn--i-sx6a60i.us.kg"
       },
-      "path": "/Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2?ed=512"
+      "path": "/?ed=2560"
     }
   },
   "tag": "proxy"
@@ -82,7 +86,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "test2",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
