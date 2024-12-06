@@ -1,1 +1,99 @@
-vless://f1e481af-4fd4-40ce-aedc-9a5529c10e8a@ver2.tcod008.info:28505?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#nyf6twmi
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "199.232.8.123",
+        "port": 80,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "d578322a-266b-479d-9eda-f1b41324e721"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "none",
+    "wsSettings": {
+      "headers": {
+        "Host": "IRANINGOAT2.IR"
+      },
+      "path": "/RsAMasAPMX5yb1YZ?ed=2560"
+    }
+  },
+  "tag": "proxy"
+},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "test",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
