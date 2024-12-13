@@ -1,1 +1,107 @@
-vless://f1e481af-4fd4-40ce-aedc-9a5529c10e8a@ver2.tcod008.info:28505?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#آخ و بخت عسکر
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "172.67.204.84",
+        "port": 8443,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "0dd5a4f8-b442-4f2b-b134-6ea57bb14dcc"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "alpn": [
+        "http/1.1"
+      ],
+      "fingerprint": "randomized",
+      "serverName": "birdxraywow.pages.dev"
+    },
+    "wsSettings": {
+      "headers": {
+        "Host": "birdxraywow.pages.dev"
+      },
+      "path": "/uhTbsponEnSNnlWU?ed=2560"
+    }
+  },
+  "tag": "proxy"
+},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "test",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
