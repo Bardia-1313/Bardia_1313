@@ -1,1 +1,103 @@
-vless://88bc3858-b31c-4a1d-9f17-9c485ae404b1@ne2sr.blushop1403.info:17160?security=none&encryption=none&host=Fast.com&headerType=http&type=tcp#rlqxteez
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "error"
+  },
+  "outbounds": [
+    {
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "151.101.66.228",
+        "port": 443,
+        "users": [
+          {
+            "encryption": "none",
+            "flow": "",
+            "id": "7f72b445-2293-416b-b036-d6cd2fc7fa39"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "serverName": "pscresearch.faculty.ucdavis.edu"
+    },
+    "wsSettings": {
+      "headers": {
+        "Host": "jbtvtcrcd.com"
+      },
+      "path": "ws/?ed=2048"
+    }
+  },
+  "tag": "proxy"
+},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "test",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      }
+    ]
+  }
+}
