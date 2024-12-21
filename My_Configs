@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "151.101.66.228",
-        "port": 443,
+        "address": "5.202.7.72",
+        "port": 45495,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "7f72b445-2293-416b-b036-d6cd2fc7fa39"
+            "id": "1f77f427-62f1-4ff6-a085-21278eb04472"
           }
         ]
       }
@@ -57,16 +57,12 @@
   },
   "streamSettings": {
     "network": "ws",
-    "security": "tls",
-    "tlsSettings": {
-      "allowInsecure": true,
-      "serverName": "pscresearch.faculty.ucdavis.edu"
-    },
+    "security": "none",
     "wsSettings": {
       "headers": {
-        "Host": "jbtvtcrcd.com"
+        "Host": ""
       },
-      "path": "ws/?ed=2048"
+      "path": "/"
     }
   },
   "tag": "proxy"
@@ -86,7 +82,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "Bardia",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
