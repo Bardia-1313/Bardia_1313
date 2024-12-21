@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "5.202.7.72",
-        "port": 45495,
+        "address": "172.64.35.207",
+        "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "1f77f427-62f1-4ff6-a085-21278eb04472"
+            "id": "2928d83a-ca75-4d52-b437-fa78c7601378"
           }
         ]
       }
@@ -57,12 +57,16 @@
   },
   "streamSettings": {
     "network": "ws",
-    "security": "none",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": true,
+      "serverName": "freedom-1rj.pages.dev"
+    },
     "wsSettings": {
       "headers": {
-        "Host": ""
+        "Host": "freedom-1rj.pages.dev"
       },
-      "path": "/"
+      "path": "/freedom-1rj.pages.dev/?ed=2560"
     }
   },
   "tag": "proxy"
@@ -82,7 +86,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Bardia",
+  "remarks": "test",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
