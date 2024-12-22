@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "172.64.35.207",
+        "address": "188.114.97.4",
         "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "2928d83a-ca75-4d52-b437-fa78c7601378"
+            "id": "0b973691-d6a1-4829-aa24-25a1f40c10e8"
           }
         ]
       }
@@ -60,13 +60,18 @@
     "security": "tls",
     "tlsSettings": {
       "allowInsecure": true,
-      "serverName": "freedom-1rj.pages.dev"
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "fingerprint": "randomized",
+      "serverName": "PpaL03.yiCAmo8969.wORKErS.dEV"
     },
     "wsSettings": {
       "headers": {
-        "Host": "freedom-1rj.pages.dev"
+        "Host": "ppAl03.yicAmO8969.WorKERs.dEV"
       },
-      "path": "/freedom-1rj.pages.dev/?ed=2560"
+      "path": "/0pfsJgXu8jXHySwu?ed=2560"
     }
   },
   "tag": "proxy"
