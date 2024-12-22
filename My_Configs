@@ -43,13 +43,13 @@
   "settings": {
     "vnext": [
       {
-        "address": "188.114.97.4",
+        "address": "172.67.207.142",
         "port": 443,
         "users": [
           {
             "encryption": "none",
             "flow": "",
-            "id": "0b973691-d6a1-4829-aa24-25a1f40c10e8"
+            "id": "89b3cbba-e6ac-485a-9481-976a0415eab9"
           }
         ]
       }
@@ -65,13 +65,13 @@
         "http/1.1"
       ],
       "fingerprint": "randomized",
-      "serverName": "PpaL03.yiCAmo8969.wORKErS.dEV"
+      "serverName": "PPal03.yUriEl-sIddHanTH.WOrKeRs.DEv"
     },
     "wsSettings": {
       "headers": {
-        "Host": "ppAl03.yicAmO8969.WorKERs.dEV"
+        "Host": "PpAl03.yurIEl-siddhaNtH.worKErs.DeV"
       },
-      "path": "/0pfsJgXu8jXHySwu?ed=2560"
+      "path": "/4Viq5XHkDINND2Wg?ed=2560"
     }
   },
   "tag": "proxy"
@@ -91,7 +91,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "test",
+  "remarks": "test2",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
