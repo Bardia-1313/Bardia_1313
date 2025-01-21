@@ -4,3 +4,4 @@ vless://93a2cb89-5caf-4726-88ad-8569037981e1@149.248.38.221:8080?path=%2F&securi
 vless://1d86846c-5a27-43c8-8981-57bb75c82195@185.153.183.129:3237?security=&encryption=none&headerType=&type=tcp#%F0%9F%94%92%20VL-TCP-NONE%20%F0%9F%87%A8%F0%9F%87%BE%20CY-185.153.183.129%3A3237
 vless://64a26fac-2c47-4fea-bbba-0ff414e8ce12@66.42.87.187:8080?type=ws&security=none&path=%2F#Canada
 vless://d97a0646-dfcd-4f56-cc41-9f20638adec2@136.244.77.40:8080?path=%2F&security=&encryption=none&type=ws#Qatar
+vless://9d0a75d2-f747-4afa-b43f-d208af9e8f9a@193.123.90.77:443?security=reality&encryption=none&pbk=3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=itunes.apple.com&sid=6ba85179e30d4fc2#%F0%9F%94%92%20VL-TCP-RLT%20%F0%9F%87%A6%F0%9F%87%AA%20AE-193.123.90.77%3A443
