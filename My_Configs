@@ -1,1 +1,16 @@
-vless://c837bd55-5b5f-4c8c-a2a9-e14deb697526@ara1.kerosred.info:15008?security=none&encryption=none&host=Telewebion.com&headerType=http&type=tcp#jok
+vless://8b8f8d40-30dd-4237-8713-c929045bba96@sub.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-de
+vless://c90ada92-5fff-461c-edc6-e56dac561b18@194.59.170.127:443?type=tcp&security=none#MTN-de
+vless://ec73ccae-1172-4245-ee7f-62371d44832c@91.107.173.147:12121?type=grpc&serviceName=&authority=&security=reality&pbk=5hOlL5myU6w3be1CcVFmCH7FHtDq7BJI-1rmkXFUPiU&fp=firefox&sni=microsoft.com&sid=&spx=%2F#MCI-de
+vless://5016fd14-c107-40c5-acc6-5bb606c04ba8@add.fxgoldensignals.com:27294?path=/27294/tyfftyf&security=&encryption=none&type=ws#OTHER-gb
+vless://269d1a75-2a7f-47a4-8c9c-8fdb8dc964cc@194.59.170.127:443?type=tcp&security=none#MTN-gb
+trojan://EDhBW19Hf2@91.107.173.147:8080?type=tcp&security=none#MCI-gb
+vless://40f63420-ea0e-4804-a9c8-6f56583c3a5b@ir.fxgoldensignals.com:8443?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#OTHER-fra
+vless://e0e9e5b8-cd36-4f6b-e4fc-3fa6bdeb6369@194.59.170.127:443?type=tcp&security=none#MTN-fra
+vless://e0e9e5b8-cd36-4f6b-e4fc-3fa6bdeb6369@91.107.173.147:443?type=tcp&security=none#MCI-fra
+vless://5622a4ea-01c6-4f3e-9b1b-ec035329167a@ab.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-nl
+vless://63fa3c11-5a02-4366-f749-9a2e758e6b8c@194.59.170.127:8081?type=ws&path=%2F&host=&security=none#MCI-nl
+vless://3c73e791-1cab-4a76-b6f1-3176c76459f7@ab.fxgoldensignals.com:443?path=/21290/text&security=tls&encryption=none&fp=random&type=ws#OTHER-fra
+vless://906e79e6-5d08-4fa7-9de7-b0003aad6bcf@www.zula.ir:80?type=ws&path=%2F%3Fed%3D2048&host=bloger9.trustdevlo.COM.&security=none#MTN-fra
+vless://906e79e6-5d08-4fa7-9de7-b0003aad6bcf@www.zula.ir:80?type=ws&path=%2F%3Fed%3D2048&host=bloger9.trustdevlo.COM.&security=none#MCI-fra
+vless://1b627322-9ff1-483e-8f43-4396573f64f7@ab.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-us
+vless://f63d1eb4-1cab-471e-8d42-df00d0a44bc1@91.107.173.147:443?type=tcp&security=none#MCI-us
