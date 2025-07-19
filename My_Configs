@@ -1,16 +1,61 @@
-vless://8b8f8d40-30dd-4237-8713-c929045bba96@sub.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-de
-vless://c90ada92-5fff-461c-edc6-e56dac561b18@194.59.170.127:443?type=tcp&security=none#MTN-de
-vless://ec73ccae-1172-4245-ee7f-62371d44832c@91.107.173.147:12121?type=grpc&serviceName=&authority=&security=reality&pbk=5hOlL5myU6w3be1CcVFmCH7FHtDq7BJI-1rmkXFUPiU&fp=firefox&sni=microsoft.com&sid=&spx=%2F#MCI-de
-vless://5016fd14-c107-40c5-acc6-5bb606c04ba8@add.fxgoldensignals.com:27294?path=/27294/tyfftyf&security=&encryption=none&type=ws#OTHER-gb
-vless://269d1a75-2a7f-47a4-8c9c-8fdb8dc964cc@194.59.170.127:443?type=tcp&security=none#MTN-gb
-trojan://EDhBW19Hf2@91.107.173.147:8080?type=tcp&security=none#MCI-gb
-vless://40f63420-ea0e-4804-a9c8-6f56583c3a5b@ir.fxgoldensignals.com:8443?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#OTHER-fra
-vless://e0e9e5b8-cd36-4f6b-e4fc-3fa6bdeb6369@194.59.170.127:443?type=tcp&security=none#MTN-fra
-vless://e0e9e5b8-cd36-4f6b-e4fc-3fa6bdeb6369@91.107.173.147:443?type=tcp&security=none#MCI-fra
-vless://5622a4ea-01c6-4f3e-9b1b-ec035329167a@ab.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-nl
-vless://63fa3c11-5a02-4366-f749-9a2e758e6b8c@194.59.170.127:8081?type=ws&path=%2F&host=&security=none#MCI-nl
-vless://3c73e791-1cab-4a76-b6f1-3176c76459f7@ab.fxgoldensignals.com:443?path=/21290/text&security=tls&encryption=none&fp=random&type=ws#OTHER-fra
-vless://906e79e6-5d08-4fa7-9de7-b0003aad6bcf@www.zula.ir:80?type=ws&path=%2F%3Fed%3D2048&host=bloger9.trustdevlo.COM.&security=none#MTN-fra
-vless://906e79e6-5d08-4fa7-9de7-b0003aad6bcf@www.zula.ir:80?type=ws&path=%2F%3Fed%3D2048&host=bloger9.trustdevlo.COM.&security=none#MCI-fra
-vless://1b627322-9ff1-483e-8f43-4396573f64f7@ab.fxgoldensignals.com:8443?security=none&encryption=none&host=ponisha.ir&headerType=http&type=tcp#OTHER-us
-vless://f63d1eb4-1cab-471e-8d42-df00d0a44bc1@91.107.173.147:443?type=tcp&security=none#MCI-us
+vless://9f4269a5-710b-4740-a6b0-a44f618c2319@172.105.95.123:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L555
+vless://88b9da00-7a25-45ec-859b-14ad57a6bd2b@91.99.176.22:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%2058
+vless://0dcdcbae-0ff6-467c-addb-bff403cd689f@139.162.174.95:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L338
+vless://dd553fea-ee58-4fc7-b33e-448d4d507897@216.22.5.67:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#United%20States
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.118.237:8443?type=xhttp&path=%2Fxhttp&host=&mode=stream-one&security=none#Germany%20XQ
+vless://5cb7f2f0-dc6a-4df2-955c-37e42c0c9eb2@172.104.135.243:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L622
+vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.178.25:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20PO1
+vless://d2d29254-ad3b-495a-b209-5ccc4f12c0a4@91.99.116.139:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20DO
+vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.178.25:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20PO1
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20SO
+vless://bd739eed-20b6-47a2-82cd-8c9c11f752c6@172.104.234.10:443?type=xhttp&path=%2Fsdf&host=&mode=stream-one&security=none#Germany L532
+vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.221.206:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20PO
+vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.216.235:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20H7
+vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.178.47:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20PO1
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.113.54:8443?type=xhttp&path=%2Fxhttp&host=&mode=stream-one&security=none#Germany%20XY
+vless://f666c68e-f1fd-498e-a187-2e7f58380504@91.99.111.168:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20HO
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.10.168:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20SO
+vless://47454594-40e5-414a-ac4f-2db7a27cd648@91.99.182.6:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20FO
+vless://089e1fd8-c237-40bd-a1c8-5451bcc0967f@172.105.76.153:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L551
+vless://fdd43326-ca56-4dbe-b3ad-254375638691@172.104.132.60:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L955
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.132.59:8443?type=xhttp&path=%2Fxhttp&host=&mode=stream-one&security=none#Germany%20XT
+vless://c4335777-e8c8-438b-9364-4bbae410b262@91.99.144.152:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20LO
+vless://07356a68-6b0f-4828-97a2-ecebdb53c37d@172.105.93.103:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L505
+vless://263c18fd-9963-41b9-bbf6-3002acb1379e@216.22.5.80:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#United%20States
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.181.47:8443?type=xhttp&path=%2Fxhttp&host=&mode=stream-one&security=none#Germany%20XI
+vless://2215ea1a-b369-4d9a-9dfe-dd97f89dc7c9@91.99.219.199:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20G9
+vless://838151ef-59e3-47f0-84c9-457d8599a77a@130.61.39.80:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20OR6
+vless://6bf993b8-328f-4d88-9c8e-71057b825d78@91.99.113.54:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20QO
+vless://06c597f7-5a87-4a14-ad1f-4dfef8c5f3ad@91.99.183.30:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20UO
+vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.218.73:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany%20H7
+vless://d6e6f9fd-8bc5-45c0-b456-f545aa879d0a@192.155.81.166:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L698
+vless://66d53d2f-2f3d-4fbb-b766-ac4e2aa1d36d@45.56.83.239:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L433
+vless://6b32299a-472f-44e2-94e5-380d6dbbcbc7@72.14.177.70:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L119
+vless://54c6740f-76f0-4152-a06c-71fb77a7ae2c@45.79.0.218:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L192
+vless://5d77589d-8553-4955-a1bc-16969a5fe8e5@172.234.24.56:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L754
+vless://15fd0898-cc6f-4c8d-be37-742a6eb4c597@198.58.122.216:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L109
+vless://6fee3115-e2db-4b44-b6f0-68cd4135da2f@172.235.136.201:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L393
+vless://2a0e68d1-56e9-43cc-802f-5cbc617e8e98@23.239.29.19:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L15
+vless://4bf96dd2-f451-4938-8fa4-1a2251290920@149.28.251.143:443?type=xhttp&path=%2F7uj65&host=&mode=stream-one&security=none#United States 877
+vless://8de12779-0583-472a-bc35-6891e44cd4ab@172.234.232.149:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L853
+vless://60bb8ec1-fb7e-4e6a-89b7-5df1b743ec43@172.236.98.26:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L742
+vless://a409d129-70fe-4bc4-906b-73985847e6ab@172.234.16.248:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L709
+vless://1a921231-3cae-4948-9088-cfb18d0bf87c@192.155.93.240:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L683
+vless://bc310b8d-fbe8-4c55-970b-be77816fceea@173.255.193.178:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L673
+vless://239cfabf-d064-4cfd-8c2a-c74babc1c77b@172.233.181.244:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L212
+vless://4414fd58-952b-4c7e-bb1d-f75f76d1c752@172.235.54.35:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L887
+vless://4bf96dd2-f451-4938-8fa4-1a2251290920@149.28.73.253:443?type=xhttp&path=%2F7uj65&host=&mode=stream-one&security=none#United States 374
+vless://6589c6e0-3c55-464c-a99a-193bdb546a69@172.233.160.182:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L64
+vless://a8dff238-bf64-4b59-816d-f7aa8c527636@72.14.182.132:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L289
+vless://d70410c0-20d2-4282-8d9b-3f1fe317e8d3@172.233.157.139:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L30
+vless://bc432859-051c-40e5-ab96-a34f47f1b14a@172.237.154.19:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L872
+vless://993ac684-62c0-4991-96e9-d3934e94ed71@172.233.187.8:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L33
+vless://327df0a8-741f-4d35-aa07-ee653174889e@172.234.16.184:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L78
+vless://56e02a73-bb43-4046-aa97-b5f2e610c19e@172.232.162.28:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L947
+vless://8d99fda8-4df2-41ff-8b41-1316773e096f@172.232.14.37:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L167
+vless://3458a236-bc0a-4526-8f9a-4607fa0e8834@172.237.148.86:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L791
+vless://319f08ce-e369-4615-8eed-8c3c47945793@72.14.182.61:443?type=tcp&path=%2F&host=zula.ir&headerType=http&security=none#Germany L334
+vless://dab73a2f-f396-47a6-ac83-33ed17204b7b@72.14.178.219:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L16
+vless://fe858a71-b4e2-4767-bd6b-f4616773f112@172.235.153.144:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L315
+vless://e6927bac-ed17-475e-8267-10686b50d5cf@45.79.71.114:443?type=xhttp&path=%2F&host=&mode=stream-one&security=none#Germany L812
+vless://4c8a9557-92c5-4a36-879b-9a40592a5731@108.61.229.179:8880?type=grpc&security=none&serviceName=#United States V91
