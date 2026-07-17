@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIP License Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-1: #060816;
+      --bg-2: #0e1630;
+      --panel: rgba(10, 16, 36, 0.72);
+      --panel-2: rgba(255, 255, 255, 0.06);
+      --stroke: rgba(255, 255, 255, 0.09);
+      --text-1: #f8fbff;
+      --text-2: #a7b4d6;
+      --text-3: #7e8db3;
+      --primary: #7c5cff;
+      --primary-2: #53d8fb;
+      --success: #23d18b;
+      --danger: #ff5d73;
+      --shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+      --shadow-soft: 0 10px 30px rgba(124, 92, 255, 0.18);
+      --radius-xl: 32px;
+      --radius-lg: 22px;
+      --radius-md: 18px;
+      --radius-sm: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      color: var(--text-1);
+      background:
+        radial-gradient(circle at 10% 20%, rgba(124, 92, 255, 0.22), transparent 28%),
+        radial-gradient(circle at 85% 25%, rgba(83, 216, 251, 0.18), transparent 24%),
+        radial-gradient(circle at 50% 100%, rgba(255, 0, 102, 0.10), transparent 30%),
+        linear-gradient(135deg, var(--bg-1), var(--bg-2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      width: 260px;
+      height: 260px;
+      top: 8%;
+      left: 7%;
+      background: rgba(124, 92, 255, 0.26);
+      animation: blobMove 14s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 300px;
+      height: 300px;
+      bottom: 5%;
+      right: 6%;
+      background: rgba(83, 216, 251, 0.18);
+      animation: blobMove 16s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes blobMove {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(18px, -24px) scale(1.12); }
+    }
+
+    .shell {
+      width: 100%;
+      max-width: 560px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--stroke);
+      background: var(--panel);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      padding: 34px;
+      isolation: isolate;
+      animation: rise 0.8s cubic-bezier(.2,.8,.2,1);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(140deg, rgba(255,255,255,0.08), transparent 22%, transparent 70%, rgba(255,255,255,0.04)),
+        linear-gradient(180deg, rgba(124, 92, 255, 0.08), transparent 30%);
+      z-index: -1;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      top: -70px;
+      left: -70px;
+      background: radial-gradient(circle, rgba(124,92,255,0.28), transparent 65%);
+      z-index: -1;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(30px) scale(.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-icon {
+      width: 68px;
+      height: 68px;
+      border-radius: 22px;
+      background:
+        linear-gradient(135deg, rgba(124, 92, 255, 1), rgba(83, 216, 251, 1));
+      display: grid;
+      place-items: center;
+      font-size: 30px;
+      box-shadow:
+        0 12px 28px rgba(124, 92, 255, 0.32),
+        inset 0 1px 1px rgba(255,255,255,0.25);
+      position: relative;
+    }
+
+    .brand-icon::after {
+      content: "";
+      position: absolute;
+      inset: 1px;
+      border-radius: 21px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .brand-text h1 {
+      font-size: 1.65rem;
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-text p {
+      color: var(--text-2);
+      font-size: 0.92rem;
+      margin-top: 6px;
+    }
+
+    .status-chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: #dffcff;
+      background: rgba(83, 216, 251, 0.10);
+      border: 1px solid rgba(83, 216, 251, 0.20);
+      white-space: nowrap;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+    }
+
+    .hero {
+      margin-bottom: 24px;
+      padding: 20px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .hero-item {
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      text-align: center;
+    }
+
+    .hero-item strong {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 6px;
+      color: #ffffff;
+    }
+
+    .hero-item span {
+      font-size: 0.78rem;
+      color: var(--text-2);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      gap: 10px;
+    }
+
+    label {
+      font-size: 0.9rem;
+      color: #dfe8ff;
+      font-weight: 600;
+    }
+
+    .hint {
+      font-size: 0.76rem;
+      color: var(--text-3);
+    }
+
+    .field {
+      position: relative;
+    }
+
+    .field-icon {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.8;
+      pointer-events: none;
+      font-size: 1rem;
+    }
+
+    .input,
+    .select {
+      width: 100%;
+      min-height: 58px;
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(255,255,255,0.09);
+      background: rgba(255,255,255,0.045);
+      color: var(--text-1);
+      padding: 16px 18px;
+      font: inherit;
+      outline: none;
+      transition: 0.25s ease;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+    }
+
+    .input {
+      padding-right: 48px;
+    }
+
+    .select {
+      appearance: none;
+      cursor: pointer;
+      padding-left: 48px;
+      background-image: linear-gradient(45deg, transparent 50%, #9fb2dd 50%), linear-gradient(135deg, #9fb2dd 50%, transparent 50%);
+      background-position: calc(12px) calc(50% - 3px), calc(18px) calc(50% - 3px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .input::placeholder {
+      color: #7f8cb0;
+    }
+
+    .input:focus,
+    .select:focus {
+      border-color: rgba(124, 92, 255, 0.8);
+      background: rgba(124, 92, 255, 0.08);
+      box-shadow:
+        0 0 0 4px rgba(124, 92, 255, 0.14),
+        0 10px 25px rgba(124, 92, 255, 0.10);
+      transform: translateY(-1px);
+    }
+
+    .select option {
+      background: #131a32;
+      color: white;
+    }
+
+    .button-row {
+      margin-top: 8px;
+    }
+
+    .btn {
+      width: 100%;
+      min-height: 60px;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font: inherit;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      box-shadow:
+        0 16px 34px rgba(92, 104, 255, 0.28),
+        inset 0 1px 0 rgba(255,255,255,0.20);
+      transition: transform .22s ease, box-shadow .22s ease, filter .22s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        0 20px 44px rgba(92, 104, 255, 0.34),
+        inset 0 1px 0 rgba(255,255,255,0.24);
+      filter: saturate(1.08);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(115deg, transparent 20%, rgba(255,255,255,0.25) 50%, transparent 80%);
+      transform: translateX(-120%);
+      transition: transform .75s ease;
+    }
+
+    .btn:hover::before {
+      transform: translateX(120%);
+    }
+
+    .btn-content {
+      position: relative;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .result-box {
+      margin-top: 24px;
+      padding: 18px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, rgba(35, 209, 139, 0.10), rgba(83, 216, 251, 0.08));
+      border: 1px solid rgba(35, 209, 139, 0.18);
+      display: none;
+      animation: reveal .45s ease;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+    }
+
+    .result-box.show {
+      display: block;
+    }
+
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .result-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .result-title {
+      color: #d9fff0;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .copy-note {
+      color: rgba(217,255,240,0.75);
+      font-size: 0.76rem;
+    }
+
+    .license-code {
+      width: 100%;
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.07);
+      background: rgba(4, 8, 20, 0.52);
+      color: #f2fbff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.96rem;
+      line-height: 1.9;
+      letter-spacing: 1.2px;
+      word-break: break-word;
+      cursor: pointer;
+      transition: .2s ease;
+      user-select: all;
+    }
+
+    .license-code:hover {
+      border-color: rgba(83, 216, 251, 0.25);
+      background: rgba(8, 14, 30, 0.72);
+    }
+
+    .footer {
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-badge {
+      font-size: 0.78rem;
+      color: var(--text-2);
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 28px;
+      transform: translateX(-50%) translateY(100px);
+      opacity: 0;
+      background: rgba(20, 28, 52, 0.92);
+      color: white;
+      border: 1px solid rgba(83, 216, 251, 0.2);
+      box-shadow: 0 16px 40px rgba(0,0,0,.35);
+      padding: 14px 18px;
+      border-radius: 18px;
+      font-size: 0.9rem;
+      z-index: 30;
+      transition: .35s ease;
+      backdrop-filter: blur(12px);
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .error-shake {
+      animation: shake .32s linear;
+      border-color: rgba(255, 93, 115, 0.9) !important;
+      box-shadow: 0 0 0 4px rgba(255, 93, 115, 0.12) !important;
+    }
+
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(4px); }
+      50% { transform: translateX(-4px); }
+      75% { transform: translateX(3px); }
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 22px;
+        border-radius: 24px;
+      }
+
+      .topbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .brand {
+        align-items: center;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .brand-text h1 {
+        font-size: 1.4rem;
+      }
+
+      .status-chip {
+        text-align: center;
+      }
+
+      .license-code {
+        font-size: 0.88rem;
+        letter-spacing: 0.8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="card">
+      <div class="topbar">
+        <div class="brand">
+          <div class="brand-icon">👑</div>
+          <div class="brand-text">
+            <h1>پنل VIP لایسنس</h1>
+            <p>تولید لایسنس یکتا با ظاهر مدرن و حرفه‌ای</p>
+          </div>
+        </div>
+        <div class="status-chip">Secure Dynamic License</div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-item">
+          <strong>۴۴ کاراکتر</strong>
+          <span>خروجی منحصربه‌فرد</span>
+        </div>
+        <div class="hero-item">
+          <strong>چند بازه</strong>
+          <span>مدت‌های متنوع اعتبار</span>
+        </div>
+        <div class="hero-item">
+          <strong>کپی سریع</strong>
+          <span>انتقال مستقیم به کلیپ‌بورد</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label-row">
+          <label for="deviceCode">کد دستگاه کاربر</label>
+          <span class="hint">الزامی</span>
+        </div>
+        <div class="field">
+          <span class="field-icon">⌘</span>
+          <input class="input" type="text" id="deviceCode" placeholder="مثلاً: DEV-AX91-KL55" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label-row">
+          <label for="duration">مدت اعتبار لایسنس</label>
+          <span class="hint">قابل انتخاب</span>
+        </div>
+        <div class="field">
+          <select class="select" id="duration">
+            <option value="1">آزمایشی (۱ روزه)</option>
+            <option value="7">۱ هفته‌ای</option>
+            <option value="30">۱ ماهه (۳۰ روز)</option>
+            <option value="90">۳ ماهه (۹۰ روز)</option>
+            <option value="180">۶ ماهه (۱۸۰ روز)</option>
+            <option value="365">۱ ساله (۳۶۵ روز)</option>
+            <option value="3650">مادام‌العمر (۱۰ ساله)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="button-row">
+        <button class="btn" onclick="generateLicense()">
+          <span class="btn-content">
+            <span>تولید لایسنس یکتا</span>
+            <span>✨</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="result-box" id="resultBox">
+        <div class="result-top">
+          <div class="result-title">لایسنس تولید شد</div>
+          <div class="copy-note">برای کپی روی کد کلیک کنید</div>
+        </div>
+        <div class="license-code" id="licenseCode" onclick="copyLicense()" title="کلیک برای کپی"></div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-badge">UI لوکس • شفاف • ریسپانسیو</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">لایسنس با موفقیت کپی شد ✓</div>
+
+  <script>
+    function generateRandomString(length) {
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+      let result = '';
+      const array = new Uint8Array(length);
+      crypto.getRandomValues(array);
+      for (let i = 0; i < length; i++) {
+        result += chars[array[i] % chars.length];
+      }
+      return result;
+    }
+
+    function generateLicense() {
+      const deviceCodeInput = document.getElementById('deviceCode');
+      const deviceCode = deviceCodeInput.value.trim();
+      const duration = document.getElementById('duration').value;
+
+      if (!deviceCode) {
+        deviceCodeInput.focus();
+        deviceCodeInput.classList.add('error-shake');
+        setTimeout(() => deviceCodeInput.classList.remove('error-shake'), 700);
+        return;
+      }
+
+      const license = generateRandomString(44);
+      const resultBox = document.getElementById('resultBox');
+      const licenseCode = document.getElementById('licenseCode');
+
+      licenseCode.textContent = license;
+      resultBox.classList.add('show');
+
+      copyToClipboard(license);
+    }
+
+    function copyLicense() {
+      const code = document.getElementById('licenseCode').textContent;
+      if (code) copyToClipboard(code);
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(showToast).catch(() => {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showToast();
+      });
+    }
+
+    function showToast() {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      clearTimeout(window.toastTimer);
+      window.toastTimer = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2400);
+    }
+
+    document.getElementById('deviceCode').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') generateLicense();
+    });
+  </script>
+</body>
+</html>
+</query>
